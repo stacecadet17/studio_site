@@ -1,10 +1,15 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+import Alert from "react-bootstrap/Alert";
 
 class Slider extends React.Component {
   render() {
     return (
       <div>
+        <Alert variant="warning" style={{ textAlign: "center" }}>
+          <Alert.Link href="#covid">Read more</Alert.Link>
+          {" about our response to Covid-19 "}
+        </Alert>
         <Carousel>
           {/* <Carousel.Item>
             <img

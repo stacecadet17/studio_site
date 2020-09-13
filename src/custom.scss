@@ -1,4 +1,15 @@
 //custom
+// $theme-colors: (
+//   "primary": #ff4136,
+// );
+
+.carousel-item {
+  height: 500px;
+}
+
+.alert {
+  margin-bottom: 0px !important;
+}
 
 //original
 @import "~bootstrap/scss/bootstrap";
