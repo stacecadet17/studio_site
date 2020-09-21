@@ -11,9 +11,9 @@ class Video extends React.Component {
         <Container fluid className="bg-primary">
           <Row>
             <Col>
-              <Card>
+              <Card className="bg-primary">
                 <Card.Title>
-                  Welcome to the Nancy Doizé School Of Dance ﻿﻿﻿​﻿Conveniently
+                  Welcome to the Nancy Doizé School Of Dance Conveniently
                   located at 4620 Meridian Avenue, San Jose California, The
                   Nancy Doizé School of Dance has been serving the community
                   with a first rate dance program for over 30 years. We offer
@@ -33,6 +33,7 @@ class Video extends React.Component {
             <Col>
               <Card>
                 <iframe
+                  title="VOY"
                   width="100%"
                   height="315"
                   src="https://www.youtube.com/embed/pP7go-DTNg0"

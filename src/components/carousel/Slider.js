@@ -11,18 +11,6 @@ class Slider extends React.Component {
           {" about our response to Covid-19 "}
         </Alert>
         <Carousel>
-          {/* <Carousel.Item>
-            <img
-              width={500}
-              className="d-block w-100"
-              src="img1.jpg"
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption> */}
-          {/* </Carousel.Item> */}
           <Carousel.Item>
             <img className="d-block w-100" src="img2.jpg" alt="Third slide" />
             <Carousel.Caption>

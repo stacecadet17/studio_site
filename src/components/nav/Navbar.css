@@ -1,0 +1,11 @@
+.navbar {
+  background: blue;
+  height: 50px;
+  transition: background 0.5s;
+}
+
+.navbar.active {
+  background: transparent;
+  height: 50px;
+  transition: background 0.3s;
+}
